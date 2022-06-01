@@ -1,0 +1,182 @@
+body{
+    font-family: "Montserrat-Light";
+}
+
+#title{
+    background-color: #ff4c68;
+    padding: 3% 15% 5% ;
+    color: #fff;
+}
+
+
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    
+}
+.navbar{
+    padding:0 0 4.5rem;
+
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.title-image{
+    width:60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    
+}
+
+
+
+p{
+    color: #8f8f8f;
+}
+
+.ig{
+    color: #ef8172;
+    padding-bottom: 1rem;
+}
+
+.icon{
+    text-align: center;
+}
+ 
+.ig :hover {
+    color: red;
+
+}
+
+#testimonials{
+
+
+text-align: center;
+background-color: #ef8172;
+color: #fff;
+
+}
+
+h2{
+    font-size: 3.5rem;
+    font-family: "Montserrat-Bold";
+}
+
+.testimonial-image{
+    
+    width : 20%;
+    border-radius : 100%;
+    padding: 5% 2% ;
+}
+
+#press{
+
+    background-color: #ef8172;
+    padding: 0 10% 8%;
+    text-align: center;
+
+}
+
+.log{
+
+    width: 22%;
+    padding: 0 3% 0;
+    
+}
+
+
+.carousel-item{
+
+    padding: 7% 15% 2%;
+
+}
+
+#pricing{
+
+padding:3% 5% ;
+text-align: center;
+}
+
+.pricing-space{
+    padding: 2% 3%;
+}
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+h3{
+    font-family: "Montserrat-Bold";
+    font-size: 1.5rem;
+    
+
+}
+
+.h3-cta{
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    color: #fff;
+    padding-top: 3% ;
+    margin-bottom: 0;
+       
+}
+
+
+#footer{
+    text-align: center;
+    color: #fff;
+    padding-top: 2%;
+
+}
+.p-footer{
+    color: grey;
+
+}
+
+.ig-footer{
+    color: #000;
+    margin: 1rem ;
+}
+
+
+
+@media (max-width:992px){
+  #title{
+      text-align: center;
+  }
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
